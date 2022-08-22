@@ -14,7 +14,7 @@ def current_weather(request):
         print(city_name)
         print("_"*50)
     
-        api_key = "832057fb0459061fc996a5a8c543d0ab"
+        api_key = "832057fb0459061fc996a5a8" #Enter your Api Key
         base_url = "http://api.openweathermap.org/data/2.5/weather?"
   
         complete_url = base_url + "appid=" + api_key + "&q=" + city_name 
